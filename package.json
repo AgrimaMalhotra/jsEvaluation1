@@ -1,0 +1,22 @@
+{
+  "name": "jsevaluation1",
+  "version": "1.0.0",
+  "description": "Code academy evaluation : Bowling Score Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaAgrima/jsEvaluation1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akaAgrima/jsEvaluation1/issues"
+  },
+  "homepage": "https://github.com/akaAgrima/jsEvaluation1#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
