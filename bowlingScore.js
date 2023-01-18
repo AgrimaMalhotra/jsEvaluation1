@@ -48,7 +48,7 @@ let getGameScore = rolls => {
         throw new Error('Invalid array');
     }
     var frameScore = getFrames(rolls);
-    if (Object.keys(frameScore).length <= 10) {
+    if (Object.keys(frameScore).length < 10) {
         throw new Error('Invalid');
     }
     while (index < 10) {
@@ -58,3 +58,5 @@ let getGameScore = rolls => {
     return totalScore;
 }
 
+
+module.exports = { getGameScore };
